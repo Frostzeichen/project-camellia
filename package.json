@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "pnpm nodemon index.js -e js,css,pug"
   },
