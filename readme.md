@@ -1,9 +1,9 @@
 # About Project Camellia
 This is a modernization of an old project I built in 2022 using the following stack:
 
-    - PugJS
-    - Node + Express
-    - FaunaDB
+- PugJS
+- Node + Express
+- FaunaDB
 
 Because Fauna is a paid service (and I haven't paid them a dime yet), my old project doesn't run anymore. The goal for this new project is to revive my old project while adding in newer features that make this even better while remaining faithful to the original design.
 
@@ -16,10 +16,10 @@ Planning phase is for mapping out the goals of the project and steps on how to t
 ### Phase 1 (Goal: Camellia Article Writer 1.0.0)
 The goal of phase 1 is to create a modernized system that is the most faithful to the original design. It uses the following stack:
 
-    - EJS (to replace PugJS)
-    - Node + Express
-    - PostgreSQL (to replace FaunaDB)
-    - Docker (for managing services)
+- EJS (to replace PugJS)
+- Node + Express
+- PostgreSQL (to replace FaunaDB)
+- Docker (for managing services)
 
 This phase does not include a proper deployment protocol. I only plan to use this for demonstration purposes.
 
@@ -28,16 +28,16 @@ The second phase is for adding a proper frontend in the system. Switching from t
 
 This phase will include the following stack:
 
-    - SvelteKit (to replace EJS)
-    - Node + Express
-    - PostgreSQL
-    - Docker
-    - Raspberry Pi (for deployment practice)
+- SvelteKit (to replace EJS)
+- Node + Express
+- PostgreSQL
+- Docker
+- Raspberry Pi (for deployment practice)
 
 It will also include the following features:
 
-    - Server caching (to reduce database calls)
-    - Integration with the Botanical Database for the Encyclopedia of Philippine Plants API
+- Server caching (to reduce database calls)
+- Integration with the Botanical Database for the Encyclopedia of Philippine Plants API
 
 ### OPTIONAL Phase 3 (Goal: Proper Deployment)
 Lastly, the goal for phase 3 is to run the system in the open web as a proper website. This is an optional phase which will have to wait until I can properly populate my database with real content.
