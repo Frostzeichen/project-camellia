@@ -1,6 +1,6 @@
 {
-  "name": "Type 64",
-  "version": "0.1.1",
+  "name": "Camellia Article Writer",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
