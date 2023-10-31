@@ -1,14 +1,21 @@
 <html>
     <head>
-        <title>Camellia Article Writer</title>
+        <title><%= ejsTitle %> [version <%= ejsVersion %>]</title>
     </head>
     <body>
-        <h1>Hello world, I guess?</h1>
+        <h1><%= ejsTitle %></h1>
+        <p>This is a modernized recreation of an old project.</p>
         <nav>
             Navbar here, supposedly.
         </nav>
         <main>
-            List of articles goes here.
+            <ul>
+                <% for (let i = 0; i < titles.length; i++) { %>
+                    <li>
+                        <%= titles[i] %>
+                    </li>
+                <% } %>
+            </ul>
         </main>
         <aside>
             <p>There are <%= titles.length %> articles in this site!</p>
