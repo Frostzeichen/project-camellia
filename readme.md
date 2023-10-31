@@ -1,5 +1,6 @@
 # About Project Camellia
 This is a modernization of an old project I built in 2022 using the following stack:
+
     - PugJS
     - Node + Express
     - FaunaDB
@@ -14,6 +15,7 @@ Planning phase is for mapping out the goals of the project and steps on how to t
 
 ### Phase 1 (Goal: Camellia Article Writer 1.0.0)
 The goal of phase 1 is to create a modernized system that is the most faithful to the original design. It uses the following stack:
+
     - EJS (to replace PugJS)
     - Node + Express
     - PostgreSQL (to replace FaunaDB)
@@ -25,6 +27,7 @@ This phase does not include a proper deployment protocol. I only plan to use thi
 The second phase is for adding a proper frontend in the system. Switching from template-based SSR to any of the modern frontend frameworks (Svelte, React, Next, etc.) **WILL** result in breaking changes because of the way the backend manages content.
 
 This phase will include the following stack:
+
     - SvelteKit (to replace EJS)
     - Node + Express
     - PostgreSQL
@@ -32,6 +35,7 @@ This phase will include the following stack:
     - Raspberry Pi (for deployment practice)
 
 It will also include the following features:
+
     - Server caching (to reduce database calls)
     - Integration with the Botanical Database for the Encyclopedia of Philippine Plants API
 
